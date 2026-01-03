@@ -104,25 +104,22 @@ return {
 ## Palettes
 
 List of current themes allowed to set in configuration.
+If a theme has multiple flavors,
+one of them will be set by default as dark or light.
 
-| Palette       | Flavor      | Mode  |
-| ------------- | ----------- | ----- |
-| everforest    | light       | Light |
-| everforest    | dark        | Dark  |
-| gruvbox       | light       | Light |
-| gruvbox       | dark        | Dark  |
-| rosepine      | dawn        | Light |
-| rosepine      | moon        | Dark  |
-
-Soon...
-
-| Palette       | Flavor      | Mode  |
-| ------------- | ----------- | ----- |
-| catppuccin    | latte       | Light |
-| catppuccin    | frappe      | Dark  |
-| catppuccin    | macchiato   | Dark  |
-| catppuccin    | mocha       | Dark  |
-| dracula       | main        | Dark  |
-| flatland      | main        | Dark  |
-| ubuntu        | main        | Dark  |
+| Palette       | Flavor      | Mode            |
+| ------------- | ----------- | --------------- |
+| catppuccin    | latte       | Light (Default) |
+| catppuccin    | mocha       | Dark  (Default) |
+| catppuccin    | frappe      | Dark            |
+| catppuccin    | macchiato   | Dark            |
+| dracula       | main        | Dark  (Default) |
+| everforest    | light       | Light (Default) |
+| everforest    | dark        | Dark  (Default) |
+| flatland      | main        | Dark  (Default) |
+| gruvbox       | light       | Light (Default) |
+| gruvbox       | dark        | Dark  (Default) |
+| rosepine      | dawn        | Light (Default) |
+| rosepine      | moon        | Dark  (Default) |
+| ubuntu        | main        | Dark            |
 
