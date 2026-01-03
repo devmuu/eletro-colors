@@ -40,6 +40,8 @@ In offline repo:
 
 The file configuration can be placed in `~/.config/nvim/after/plugin` directory.
 
+ex: `~/.config/nvim/after/plugin/theme.lua`
+
 ```lua
 local theme = require("eletro-colors")
 
@@ -86,21 +88,41 @@ return {
 }
 ```
 
+- To only apply a theme:
+
+```lua
+local theme = require("eletro-colors")
+
+return {
+    theme.setup({
+        palette = "everforest",
+        flavor = "dark",
+    }),
+}
+```
+
 ## Palettes
 
-| Palette       | Background     | State | Mode  |
-| ------------- | -------------- | ----- | ----- |
-| catppuccin    | latte          |  OK   | Light |
-| catppuccin    | frappe         |  OK   | Dark  |
-| catppuccin    | macchiato      |  OK   | Dark  |
-| catppuccin    | mocha          |  OK   | Dark  |
-| dracula       | main           |  OK   | Dark  |
-| everforest    | main           |  OK   | Dark  |
-| flatland      | main           |  OK   | Dark  |
-| gruvbox       | dark           |  OK   | Dark  |
-| gruvbox       | light          |  OK   | Light |
-| rosepine      | main           |  OK   | Dark  |
-| rosepine      | moon           |  OK   | Dark  |
-| rosepine      | dawn           |  OK   | Light |
-| ubuntu        | main           |  OK   | Dark  |
+List of current themes allowed to set in configuration.
+
+| Palette       | Flavor      | Mode  |
+| ------------- | ----------- | ----- |
+| everforest    | light       | Light |
+| everforest    | dark        | Dark  |
+| gruvbox       | light       | Light |
+| gruvbox       | dark        | Dark  |
+| rosepine      | dawn        | Light |
+| rosepine      | moon        | Dark  |
+
+Soon...
+
+| Palette       | Flavor      | Mode  |
+| ------------- | ----------- | ----- |
+| catppuccin    | latte       | Light |
+| catppuccin    | frappe      | Dark  |
+| catppuccin    | macchiato   | Dark  |
+| catppuccin    | mocha       | Dark  |
+| dracula       | main        | Dark  |
+| flatland      | main        | Dark  |
+| ubuntu        | main        | Dark  |
 
