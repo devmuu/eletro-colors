@@ -7,7 +7,7 @@ if bg == "light" then
         flavor = "latte",
     })
 else
-    local t_flavor = color.config.flavor or "mocha"
+    local t_flavor = color.config.flavor
     if t_flavor == "dark" then t_flavor = "mocha" end
     color.setup({
         palette = "catppuccin",
